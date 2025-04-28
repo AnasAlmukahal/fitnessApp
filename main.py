@@ -15,7 +15,7 @@ mp_drawing = mp.solutions.drawing_utils
 
 # Initialize webcam
 cap = cv2.VideoCapture(0)
-
+#
 # Store previous hand landmarks for movement detection
 prev_landmarks = None
 movement_threshold = 0.02  # Adjust this value based on sensitivity
